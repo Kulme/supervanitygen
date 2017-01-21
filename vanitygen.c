@@ -23,7 +23,7 @@
 #include "externs.h"
 
 /* Number of secp256k1 operations per batch */
-#define STEP 3072
+#define STEP 4096
 
 #include "src/libsecp256k1-config.h"
 #include "src/secp256k1.c"
